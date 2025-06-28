@@ -41,7 +41,7 @@ const LoginForm = ({ documentFrame }: { documentFrame: Document }) => {
               type='password'
               label='Contraseña'
               name='password'
-              validations={{ required: true, minLength: 8 }}
+              validations={{ required: true, minLength: 6 }}
             />
           </section>
 
