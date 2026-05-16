@@ -28,6 +28,12 @@
     ]
   },
   "eslintConfig": {
-    "extends": "./node_modules/ts-standard/eslintrc.json"
+    "extends": "ts-standard",
+    "rules": {
+      "@typescript-eslint/no-unused-vars": 0,
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/consistent-type-definitions": ["error", "interface"]
+    }
   }
 }
